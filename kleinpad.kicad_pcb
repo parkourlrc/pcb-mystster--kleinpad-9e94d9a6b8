@@ -6642,167 +6642,6 @@
 			)
 		)
 	)
-	(footprint "kbd_Parts:ResetSW"
-		(layer "F.Cu")
-		(uuid "c555d99c-895e-4945-b3fc-801d236bcdb0")
-		(at 167.525625 65.4755 180)
-		(property "Reference" "SW1"
-			(at 0 2.55 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a6b08221-0540-432b-a20f-dd07825c0f8e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at -1.95 -7.17 0)
-			(layer "F.Fab")
-			(uuid "732742d2-36d0-4013-9b28-ceb648ec3b05")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "66ca4060-650e-4942-a670-7f6d21a7da82")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8d15bf1-3f09-4942-a711-0a9882f455e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/cb1e3f33-d0b7-4ac0-b240-2ec04ae8f52e")
-		(sheetname "/")
-		(sheetfile "kleinpad.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start 3 1.75)
-			(end -3 1.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e7fd4fdb-b8c2-4b61-bd66-34ee79c869c6")
-		)
-		(fp_line
-			(start 3 1.5)
-			(end 3 1.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "53f5f3e4-491b-4f66-8a1f-942f2140d7d4")
-		)
-		(fp_line
-			(start 3 -1.75)
-			(end 3 -1.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c2242013-4482-4d99-83a7-1cc11724cacd")
-		)
-		(fp_line
-			(start -3 1.75)
-			(end -3 1.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "013387e4-9d04-4b1d-a3c5-33c1669278b8")
-		)
-		(fp_line
-			(start -3 -1.5)
-			(end -3 -1.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f7a6c12f-3d5c-4640-93d5-07d388b8dbad")
-		)
-		(fp_line
-			(start -3 -1.75)
-			(end 3 -1.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4daa548c-96f4-4336-8922-e8367f51bb43")
-		)
-		(fp_text user "RESET"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "bc2762ad-e65e-4918-bb0d-49eabfeb5a81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 3.25 0 180)
-			(size 2 2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 27 "RST")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b35c3825-7de0-4c63-be51-8aae02f6f4bb")
-		)
-		(pad "2" thru_hole circle
-			(at -3.25 0 180)
-			(size 2 2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "2")
-			(pintype "passive")
-			(uuid "a9ac630c-583a-4766-b368-32244943256f")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243.step"
-			(offset
-				(xyz -3.5 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-	)
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "c5ddded7-d87f-4780-b97d-e36501460453")
@@ -11632,6 +11471,170 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "kbd_Parts:ResetSW"
+		(layer "B.Cu")
+		(uuid "c555d99c-895e-4945-b3fc-801d236bcdb0")
+		(at 167.525625 65.4755 180)
+		(property "Reference" "SW1"
+			(at 0 -2.55 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "021b4637-df71-486e-9c37-932dc05e4d4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.374375 3.5755 -0)
+			(layer "F.Fab")
+			(uuid "412b507e-31e4-40fd-a526-72799a57a06e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0410a22c-53b6-4899-9867-734e5d409c7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "642af500-225e-4e86-99ce-adadfe346515")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/cb1e3f33-d0b7-4ac0-b240-2ec04ae8f52e")
+		(sheetname "/")
+		(sheetfile "kleinpad.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 3 1.75)
+			(end 3 1.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c2242013-4482-4d99-83a7-1cc11724cacd")
+		)
+		(fp_line
+			(start 3 -1.5)
+			(end 3 -1.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "53f5f3e4-491b-4f66-8a1f-942f2140d7d4")
+		)
+		(fp_line
+			(start 3 -1.75)
+			(end -3 -1.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e7fd4fdb-b8c2-4b61-bd66-34ee79c869c6")
+		)
+		(fp_line
+			(start -3 1.75)
+			(end 3 1.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4daa548c-96f4-4336-8922-e8367f51bb43")
+		)
+		(fp_line
+			(start -3 1.5)
+			(end -3 1.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f7a6c12f-3d5c-4640-93d5-07d388b8dbad")
+		)
+		(fp_line
+			(start -3 -1.75)
+			(end -3 -1.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "013387e4-9d04-4b1d-a3c5-33c1669278b8")
+		)
+		(fp_text user "RESET"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "bc2762ad-e65e-4918-bb0d-49eabfeb5a81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 3.25 0 180)
+			(size 2 2)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask" "B.SilkS")
+			(remove_unused_layers no)
+			(net 27 "RST")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b35c3825-7de0-4c63-be51-8aae02f6f4bb")
+		)
+		(pad "2" thru_hole circle
+			(at -3.25 0 180)
+			(size 2 2)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask" "B.SilkS")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "a9ac630c-583a-4766-b368-32244943256f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243.step"
+			(offset
+				(xyz -3.5 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -0)
+			)
+		)
+	)
 	(footprint "Keebio-Parts.pretty-master:Resistor-Compact-1-side"
 		(layer "B.Cu")
 		(uuid "cdab669b-c832-4100-ad78-b95b239c54a3")
@@ -13214,8 +13217,8 @@
 		(uuid "48c22ea3-37a9-4ee1-aff3-92fc2a6030c9")
 	)
 	(segment
-		(start 159.5 117.4)
-		(end 159.1 117.4)
+		(start 147.7125 117.4)
+		(end 159.5 117.4)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 5)
@@ -13228,14 +13231,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "53982381-b0f7-4b7d-903c-f5b57c47f283")
-	)
-	(segment
-		(start 165.6125 118.5)
-		(end 165.5 118.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "5a880d40-1cce-4702-983d-17e6f3fbb4f7")
 	)
 	(segment
 		(start 159.9 117)
@@ -13294,14 +13289,6 @@
 		(uuid "85387afa-a1be-4dcb-b894-2a2686f98e34")
 	)
 	(segment
-		(start 158.7 117.4)
-		(end 147.7125 117.4)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "8560e369-3e19-4571-9792-302601e90df5")
-	)
-	(segment
 		(start 148.345625 91.7055)
 		(end 151.1055 91.7055)
 		(width 0.25)
@@ -13324,14 +13311,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "94963437-9e4c-4d43-b460-2ef824f010a0")
-	)
-	(segment
-		(start 159.1 117.4)
-		(end 158.7 117.4)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "94aa0685-e996-4d08-b00d-7520a0eea8b4")
 	)
 	(segment
 		(start 151.1055 91.7055)
