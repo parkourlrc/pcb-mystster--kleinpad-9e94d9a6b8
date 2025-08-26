@@ -10445,7 +10445,7 @@
 		(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH top entry")
 		(property "Reference" "J1"
-			(at 1 2.65 0)
+			(at -3.2 -5.95 0)
 			(layer "B.SilkS")
 			(uuid "0f2c3d49-825e-4071-b884-5adced5af84f")
 			(effects
@@ -12407,7 +12407,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "BAAT"
+	(gr_text "BAT+"
 		(at 147.5 66 0)
 		(layer "B.SilkS")
 		(uuid "15fdd94b-a0c8-44ec-a59b-b4d3d446da16")
@@ -12565,7 +12565,7 @@
 		)
 	)
 	(gr_text "BAT+"
-		(at 138.1 71.2 0)
+		(at 139 73.3 0)
 		(layer "B.SilkS")
 		(uuid "9ab0e2e2-e912-4848-8088-1015b6ad3b9d")
 		(effects
@@ -12685,7 +12685,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 138.1 73.2 0)
+		(at 142.8 73.3 0)
 		(layer "B.SilkS")
 		(uuid "db39eb15-51a0-46f1-abba-56ee9d71e948")
 		(effects
