@@ -11489,7 +11489,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at -0.374375 3.5755 -0)
+			(at -0.374375 3.5755 0)
 			(layer "F.Fab")
 			(uuid "412b507e-31e4-40fd-a526-72799a57a06e")
 			(effects
