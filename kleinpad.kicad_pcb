@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Kleinpad")
-		(date "2025-08-22")
+		(date "2025-08-26")
 		(rev "1.1")
 	)
 	(layers

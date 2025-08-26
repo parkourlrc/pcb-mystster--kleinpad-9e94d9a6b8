@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Kleinpad")
-		(date "2025-07-19")
-		(rev "1.0")
+		(date "2025-08-26")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -9023,10 +9023,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d72c55f-8bee-4436-a376-bf261b159aaa")
+			(uuid "1d72c55f-8bee-4436-a376-bf261b159aab")
 		)
 		(pin "1"
-			(uuid "d9fa5d6e-73c2-453a-a6ad-b3e37359f430")
+			(uuid "d9fa5d6e-73c2-453a-a6ad-b3e37359f431")
 		)
 		(instances
 			(project ""
@@ -9318,10 +9318,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d72c55f-8bee-4436-a376-bf261b159aaa")
+			(uuid "1d72c55f-8bee-4436-a376-bf261b159aac")
 		)
 		(pin "1"
-			(uuid "d9fa5d6e-73c2-453a-a6ad-b3e37359f430")
+			(uuid "d9fa5d6e-73c2-453a-a6ad-b3e37359f432")
 		)
 		(instances
 			(project ""
